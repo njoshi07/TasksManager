@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div v-for="task in tasks" :key="task.id">
-      <!-- <p>Hi there {{ task.completed }}</p> -->
+    <div v-for="(task, index) in tasks" :key="index">
       <Task
         :task="task"
         @delete-task="deleteTaskItem"
@@ -17,11 +16,6 @@ export default {
   components: {
     Task,
   },
-  // data: function () {
-  //   return {
-  //     completed: this.task.completd,
-  //   };
-  // },
 
   props: {
     tasks: Array,

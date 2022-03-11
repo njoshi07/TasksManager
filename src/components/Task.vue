@@ -43,9 +43,7 @@ export default {
       return this.$emit("delete-task", task);
     },
     completeTask(id) {
-      // console.log(`Hello from Taskkkk ${this.task.completed}`);
       this.$emit("complete-task", id);
-      // return (this.task.completed = !this.task.completed);
     },
   },
 };
