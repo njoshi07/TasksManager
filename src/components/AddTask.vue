@@ -9,11 +9,6 @@
           placeholder="Add Task Here And Press Enter"
         />
       </div>
-      <!-- <div class="addTaskButton">
-        <button type="submit" class="addButton btn btn-primary">
-          Add Task
-        </button>
-      </div> -->
     </div>
   </form>
 </template>
